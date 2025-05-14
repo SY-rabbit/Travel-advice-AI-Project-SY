@@ -1,0 +1,106 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/736/original/ChatGPT_Image_2025%E5%B9%B45%E6%9C%8813%E6%97%A5_%E4%B8%8A%E5%8D%8812_21_41.png?1747180695");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #954535;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h2 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #954535;
+  text-align: center;
+}
+
+#destination-input {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #7b3f00;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #80461b;
+  background-color: #e7dbc9;
+  margin-left: 30px;
+  width: 80%;
+}
+
+#search-button {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #7b3f00;
+  border: 2px solid #7b3f00;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #e2d1ba;
+  margin-left: 20px;
+  width: 15%;
+}
+#search-button:hover {
+  background-color: #e2d1ba;
+  color: #7b3f00;
+  border: 2px solid #7b3f00;
+}
+.itinerary {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #954535;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 60px;
+  background-color: rgba(255, 255, 255, 0.777);
+}
+.hidden {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  line-height: normal;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+footer {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #954535;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.bounce {
+  animation: bounce 0.5s infinite alternate;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}

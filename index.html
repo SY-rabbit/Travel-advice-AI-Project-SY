@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Advice Generator</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Indie+Flower&family=Love+Ya+Like+A+Sister&family=Pacifico&family=Rouge+Script&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>What to do in...</h1>
+    <h2>Travelling somewhere and have no idea where to go/visit 
+    <br>
+    Enter your destination and get a 1-day itinerary!</h2>
+    <form id="destination-form">
+        <input type="text" id="destination-input" placeholder="Enter your destination..." required>
+        <input type="submit" id="search-button" value="Get Itinerary">
+    </form>
+
+    <div class="itinerary hidden" id="itinerary" > 
+        <h3 id="itinerary-title"></h3>
+        <ul id="itinerary-list"></ul>
+    </div>
+        
+   
+
+<footer>
+    <p>Coded by SY
+    <br>
+    Please find me on <a href="https://github.com/SY-rabbit" target="_blank">GitHub</a> and visit my other websites on
+    <a href=https://app.netlify.com/teams/sy-rabbit/sites" target="_blank">Netlify</a> 
+</p>
+</footer>   
+</body>
+<script src="src/index.js"></script>
+</html>
